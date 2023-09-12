@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.pancake.right_click_text_clear.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "RightClickTextClear.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MixinEditBox"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
